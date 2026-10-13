@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hdesai68.github.io/my-repo-9/sitemap.xml
+# Atom Feed: https://hdesai68.github.io/my-repo-9/feed.xml
