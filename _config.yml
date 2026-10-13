@@ -1,0 +1,23 @@
+title: my-repo-9
+description: content
+url: https://hdesai68.github.io
+baseurl: /my-repo-9
+timezone: Asia/Shanghai
+
+# 关键：permalink 用 :basename.html，让 Jekyll 生成 .html 后缀的 URL，
+# 与内链的 .html 格式匹配，避免 404
+permalink: /:basename.html
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# 百度自动推送：在页面中嵌入 push.js
+baidu_push: true
